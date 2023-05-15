@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\c-sharp-tranning\\BulkyBook\\BookApp\\BookApp\\BookApp.csproj": {}
+    "D:\\CMCGlobal\\BulkyBook\\BookApp\\BookApp.csproj": {}
   },
   "projects": {
-    "D:\\c-sharp-tranning\\BulkyBook\\BookApp\\BookApp\\BookApp.csproj": {
+    "D:\\CMCGlobal\\BulkyBook\\BookApp\\BookApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\c-sharp-tranning\\BulkyBook\\BookApp\\BookApp\\BookApp.csproj",
+        "projectUniqueName": "D:\\CMCGlobal\\BulkyBook\\BookApp\\BookApp.csproj",
         "projectName": "BookApp",
-        "projectPath": "D:\\c-sharp-tranning\\BulkyBook\\BookApp\\BookApp\\BookApp.csproj",
-        "packagesPath": "C:\\Users\\lchau1\\.nuget\\packages\\",
-        "outputPath": "D:\\c-sharp-tranning\\BulkyBook\\BookApp\\BookApp\\obj\\",
+        "projectPath": "D:\\CMCGlobal\\BulkyBook\\BookApp\\BookApp.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\CMCGlobal\\BulkyBook\\BookApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lchau1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,9 +44,19 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.13, )"
             }
           },
           "imports": [
@@ -55,7 +65,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -67,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
